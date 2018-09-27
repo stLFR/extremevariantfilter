@@ -1,0 +1,15 @@
+bz2file==0.98
+cutadapt==1.18
+docopt==0.6.2
+extremevariantfilter==0.1
+numpy==1.14.2
+pandas==0.22.0
+python-dateutil==2.7.2
+pytz==2018.4
+PyVCF==0.6.8
+scikit-learn==0.19.1
+scipy==1.1.0
+six==1.11.0
+sklearn==0.0
+xgboost==0.72
+xopen==0.3.5
