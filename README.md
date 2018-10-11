@@ -54,6 +54,12 @@ To install and run EVF simply type:
 
     pip install extremevariantfilter
 
+Alternatively, clone this repo and build using the following commands:
+
+    git clone https://github.com/stLFR/extremevariantfilter.git
+    cd extremevariantfilter
+    pip install .
+
 ### stLFR Paper Results
 
 If you'd like to use this tool to corroborate the results from the 
