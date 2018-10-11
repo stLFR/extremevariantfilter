@@ -29,4 +29,4 @@ setup(name='extremevariantfilter',
       scripts=[
          'bin/train_model',
          'bin/apply_filter'],
-      include_package_data=True) # TODO: Add a license
+      include_package_data=True)
