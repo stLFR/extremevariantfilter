@@ -53,3 +53,13 @@ __train_model__
 To install and run EVF simply type:
 
     pip install extremevariantfilter
+
+### stLFR Paper Results
+
+If you'd like to use this tool to corroborate the results from the 
+[stLFR Paper on Bioarxiv](https://www.biorxiv.org/content/early/2018/05/17/324392.1) paper, 
+the models used for variant filtering are available within the `models/` directory. 
+In order to get identical results, after installation, use the command
+`pip install -r requirements.txt` from within this directory to ensure your 
+environment matches the one we used for our results. 
+Different versions of certain packages will result in variable results.  
