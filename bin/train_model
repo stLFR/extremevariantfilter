@@ -22,6 +22,11 @@ Examples:
     train_model --true-pos <path/to/tp/vcf(s)> --false-pos <path/to/fp/vcf(s)> --type [SNP, INDEL] --njobs 20
 """
 
+import os
+os.environ["MKL_NUM_THREADS"] = "1" 
+os.environ["NUMEXPR_NUM_THREADS"] = "1" 
+os.environ["OMP_NUM_THREADS"] = "1" 
+
 from docopt import docopt
 import extremevariantfilter as evf
 from multiprocessing import Pool
