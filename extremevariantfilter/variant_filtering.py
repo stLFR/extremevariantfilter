@@ -248,8 +248,8 @@ def Get_Header(vcf_path):
             newline = vcf.readline()
 
 
-    if Is_Gzipped:
-        with gzip.open(vcf_path) as vcf:
+    if Is_Gzipped(vcf_path):
+        with gzip.open(vcf_path, 'rb') as vcf:
             header = read_header(vcf)
     else:
         with open(vcf_path, 'r') as vcf:
