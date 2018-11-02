@@ -20,6 +20,11 @@ Examples:
     apply_filter --vcf <table> --snp-model <snp.pickle.dat> --indel-model <indel.pickle.dat>
 """
 
+import os
+os.environ["MKL_NUM_THREADS"] = "1" 
+os.environ["NUMEXPR_NUM_THREADS"] = "1" 
+os.environ["OMP_NUM_THREADS"] = "1" 
+
 from docopt import docopt
 import extremevariantfilter as evf
 import pandas as pd
